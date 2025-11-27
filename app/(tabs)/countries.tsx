@@ -3,17 +3,17 @@ import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import React, { useState } from 'react';
 import {
-  Alert,
-  FlatList,
-  Modal,
-  Platform,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
+    Alert,
+    FlatList,
+    Modal,
+    Platform,
+    Pressable,
+    StyleSheet,
+    Text,
+    View,
 } from 'react-native';
 
-export default function HomeScreen() {
+export default function CountriesPage() {
   const [drawerVisible, setDrawerVisible] = useState(false);
 
   const toggleDrawer = () => {
@@ -22,7 +22,7 @@ export default function HomeScreen() {
 
   const handleNavigateHome = () => {
     setDrawerVisible(false);
-    router.replace('/welcome');
+    router.replace('/');
   };
 
   const handleNavigateAbout = () => {
