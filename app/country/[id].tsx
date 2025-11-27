@@ -68,7 +68,7 @@ export default function CountryDetailPage() {
                 <Ionicons name="location" size={24} color="#4c6ef5" />
                 <Text style={styles.infoLabel}>Capitale</Text>
               </View>
-              <Text style={styles.infoValue}>{country.capital}</Text>
+              <Text style={styles.infoValue }>{country.capital}</Text>
             </View>
 
             {/* Population */}

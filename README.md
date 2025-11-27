@@ -114,6 +114,23 @@ Astuce réseau (iOS réel): Si le Wi‑Fi d’entreprise bloque, connectez l’o
 - Modifier l’écran initial: éditer `app/index.tsx`.
 - Adapter la palette: voir styles internes des écrans.
 
+## 🖼️ Captures d'écran
+
+![Accueil](docs/home.jpeg)
+Accueil — Écran d’accueil avec le globe et le bouton « Explorer » pour ouvrir la liste des pays.
+
+![Liste des pays](docs/liset_pays.jpeg)
+Liste des pays — Parcourez les pays (FlatList) et touchez une tuile pour voir les détails.
+
+![Détail d’un pays](docs/pays_info.jpeg)
+Détail d’un pays — Fiche avec capitale, population, superficie, langue et autres informations clés.
+
+![Menu latéral (Drawer)](docs/side_bar.jpeg)
+Menu latéral (Drawer) — Accès rapide à Accueil, À propos et Quitter.
+
+![À propos](docs/apropos.jpeg)
+À propos — Informations sur l’application et le projet.
+
 ## 📁 Arborescence (extrait)
 
 ```
